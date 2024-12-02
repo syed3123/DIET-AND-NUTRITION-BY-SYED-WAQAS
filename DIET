@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diet and Nutrition by Syed Waqas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background: #4CAF50;
+            transition: 0.3s;
+        }
+        .container {
+            padding: 20px;
+        }
+        .hero {
+            text-align: center;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .hero img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 8px;
+        }
+        .btn-appointment {
+            display: block;
+            margin: 20px auto;
+            background: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+        }
+        .btn-appointment:hover {
+            background: #45a049;
+            transition: 0.3s;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Diet and Nutrition by Syed Waqas</h1>
+    <p>Your Journey to a Healthier Life Starts Here</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#appointment">Book Appointment</a>
+</nav>
+
+<div class="container">
+    <section id="about" class="hero">
+        <h2>About Us</h2>
+        <p>Welcome to "Diet and Nutrition by Syed Waqas." Our goal is to help you achieve optimal health through personalized diet plans, expert guidance, and lifestyle adjustments tailored just for you.</p>
+        <img src="https://via.placeholder.com/600x400" alt="Healthy Food">
+    </section>
+
+    <section id="services" class="hero">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Personalized Nutrition Plans</li>
+            <li>Weight Management Programs</li>
+            <li>Fitness and Dietary Counseling</li>
+            <li>Health Improvement Workshops</li>
+        </ul>
+    </section>
+
+    <section id="appointment" class="hero">
+        <h2>Book an Appointment</h2>
+        <p>Ready to take the first step towards a healthier you? Book an appointment today!</p>
+        <a class="btn-appointment" href="#contactForm" onclick="openForm()">Book Now</a>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Diet and Nutrition by Syed Waqas. All rights reserved.</p>
+</footer>
+
+<script>
+    function openForm() {
+        alert("Thank you for your interest! Please contact us at +92-300-1234567 or email at info@dietbynutrition.com to schedule an appointment.");
+    }
+</script>
+
+</body>
+</html>
